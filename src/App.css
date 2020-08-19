@@ -45,3 +45,21 @@
         max-width: 900px;
     }
 }
+
+
+.section-title {
+    background-color: #f4f5f7;
+    padding-left: 6px;
+    border-radius: 3px;
+    color: #61646e;
+    font-weight: 500;
+}
+
+.section {
+    margin-top: 5px;
+}
+
+.section-body{
+    margin-left: auto;
+    margin-right: auto;
+}
