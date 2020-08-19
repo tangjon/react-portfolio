@@ -4,6 +4,9 @@ import logo from './assets/headshot.jpg';
 import ExperienceItem from "./experience/experienceItem";
 import logo_sap from "./assets/company-logos/sap.png";
 import logo_safe from "./assets/company-logos/safesoftware.png";
+import logo_qmcd from "./assets/project-logos/qmcd.png";
+import logo_carbon_tracker from "./assets/project-logos/carbon-tracker.png";
+import logo_pc_part_picker from "./assets/project-logos/bapc.png";
 
 import ProjectItem from "./project/projectItem";
 
@@ -47,6 +50,7 @@ function App() {
                         title="Computer Parts Picker"
                         languages={["django", "python", "bootstrap"]}
                         date="Aug 2018"
+                        logo={logo_pc_part_picker}
                         site_link="http://bapc.io"
                         github_link="https://github.com/tangjon/Build-a-PC-Configuration-Tool"
                         description="Full-stack Django project that allows users to virtually create and view multiple
@@ -55,6 +59,7 @@ function App() {
 
                     <ProjectItem
                         title="Job Distribution System"
+                        logo={logo_qmcd}
                         languages={["angular", "nodejs", "mysql"]}
                         date="Jan 2018"
                         github_link="https://github.com/tangjon/queue-manager-client"
@@ -74,6 +79,7 @@ function App() {
                     <ProjectItem
                         title="Carbon Tracker"
                         languages={["android"]}
+                        logo={logo_carbon_tracker}
                         date="Jan 2017 - April 2017"
                         github_link="https://github.com/tangjon/cmpt276-carbon-tracker"
                         description="Android application that tracks and calculates carbon usages and emission from

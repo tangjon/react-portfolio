@@ -28,7 +28,13 @@ export default class ProjectItem extends React.Component {
     render() {
         return (
             <div className="ProjectItem">
+
+                {this.props.logo &&
+                <div className="text-center">
+                    <img className="project-logo  " src={this.props.logo}/>
+                </div>}
                 <h3 className="project-title"><strong>{this.props.title}</strong></h3>
+
                 <div className="project-body">
                     <div className="project-description">{this.props.description}
                     </div>
