@@ -6,6 +6,7 @@ import icon_angular from '../assets/language-logos/angular.png';
 import icon_mysql from '../assets/language-logos/mysql.jpg';
 import icon_python from '../assets/language-logos/python.png';
 import icon_django from '../assets/language-logos/django.png';
+import icon_android from '../assets/language-logos/android.png';
 
 
 export default class ProjectItem extends React.Component {
@@ -16,7 +17,8 @@ export default class ProjectItem extends React.Component {
         "angular": icon_angular,
         "mysql": icon_mysql,
         "django": icon_django,
-        "python": icon_python
+        "python": icon_python,
+        "android": icon_android,
     }
 
     render() {
