@@ -4,6 +4,8 @@ import icon_bootstrap from '../assets/language-logos/bootstrap.png';
 import icon_nodejs from '../assets/language-logos/nodejs.png';
 import icon_angular from '../assets/language-logos/angular.png';
 import icon_mysql from '../assets/language-logos/mysql.jpg';
+import icon_python from '../assets/language-logos/python.png';
+import icon_django from '../assets/language-logos/django.png';
 
 
 export default class ProjectItem extends React.Component {
@@ -13,6 +15,8 @@ export default class ProjectItem extends React.Component {
         "nodejs": icon_nodejs,
         "angular": icon_angular,
         "mysql": icon_mysql,
+        "django": icon_django,
+        "python": icon_python
     }
 
     render() {
@@ -24,8 +28,9 @@ export default class ProjectItem extends React.Component {
                     </div>
                     <div className="project-meta">
                         <div className="project-languages">
-                            {this.props.languages && this.props.languages.map((value, index) => {
-                                return <img className="language-icon mr-1" alt={value} src={this.icons[value]}/>
+                            {this.props.languages && this.props.languages.map(value => {
+                                return <img title={value} className="language-icon mr-1" alt={value}
+                                            src={this.icons[value]}/>
                             })}
                         </div>
                         <div className="project-date">{this.props.date}</div>
