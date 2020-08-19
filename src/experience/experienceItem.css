@@ -2,9 +2,11 @@
     height: 50px;
 }
 
-.ExperienceItem{
-    border-bottom-color: black;
+.ExperienceItem {
+    border-color: #dfe1e6;
     border-radius: 1px;
     border-style: solid;
     padding: 7px;
+    margin: 5px;
+    flex: 1 1 160px;
 }
