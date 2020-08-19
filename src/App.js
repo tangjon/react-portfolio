@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import logo from './assets/headshot.jpg';
+import Project from "./project/project";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <a href="#">Email</a>
                 </div>
             </div>
+            <Project/>
         </div>
     );
 }

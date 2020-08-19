@@ -1,5 +1,4 @@
 .App {
-    text-align: center;
     margin-top: 10px;
 
 }
@@ -28,4 +27,8 @@
 .portfolio-links span {
     margin-right: 2px;
     margin-left: 2px;
+}
+
+.header {
+    text-align: center;
 }
