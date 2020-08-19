@@ -9,3 +9,8 @@
 .Project {
     margin-top: 5px;
 }
+
+.section-body{
+    margin-left: auto;
+    margin-right: auto;
+}
