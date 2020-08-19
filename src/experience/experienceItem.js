@@ -8,7 +8,6 @@ export default class ExperienceItem extends React.Component {
                 <img className="experience-logo" src={this.props.logo}/>
                 <div className="experience-body">
                     <h3 className="experience-title"><strong>{this.props.title}</strong></h3>
-                    <div className="experience-title"><strong>{this.props.title}</strong></div>
                     <div className="experience-meta">{this.props.date}</div>
                     <div>{this.props.location}</div>
                 </div>
