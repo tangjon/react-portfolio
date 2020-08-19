@@ -7,7 +7,8 @@ import icon_mysql from '../assets/language-logos/mysql.jpg';
 import icon_python from '../assets/language-logos/python.png';
 import icon_django from '../assets/language-logos/django.png';
 import icon_android from '../assets/language-logos/android.png';
-
+import icon_wordpress from '../assets/language-logos/wordpress.png';
+import icon_react from '../assets/language-logos/react.png';
 
 export default class ProjectItem extends React.Component {
 
@@ -19,6 +20,9 @@ export default class ProjectItem extends React.Component {
         "django": icon_django,
         "python": icon_python,
         "android": icon_android,
+        "wordpress": icon_wordpress,
+        "react": icon_react,
+
     }
 
     render() {

@@ -9,12 +9,12 @@ export default function Project() {
             <div className="section-title">PROJECTS</div>
             <div className="section-body">
                 <ProjectItem
-                    title="Job Distribution System"
-                    languages={["angular", "nodejs", "mysql"]}
-                    date="Jan 2018"
-                    github_link="https://github.com/tangjon/queue-manager-client"
-                    description="A work load distribution system that aims to balance work loads of many users within
-                    a team."
+                    title="tangjon.github.io with React.Js revamp"
+                    languages={["react", "bootstrap"]}
+                    date="August 2020"
+                    github_link="https://github.com/tangjon/react-portfolio"
+                    description="Revamp my original Angular powered portolio with React.Js with a simple and more
+                    maintainable design. Design and project items are modular, parameterized and easily editable."
                 />
 
                 <ProjectItem
@@ -28,6 +28,24 @@ export default function Project() {
                 />
 
                 <ProjectItem
+                    title="Job Distribution System"
+                    languages={["angular", "nodejs", "mysql"]}
+                    date="Jan 2018"
+                    github_link="https://github.com/tangjon/queue-manager-client"
+                    description="A work load distribution system that aims to balance work loads of many users within
+                    a team."
+                />
+
+                <ProjectItem
+                    title="33rd Kerrisdale Scout Group Website"
+                    languages={["wordpress"]}
+                    date="Jun 2015 - Present"
+                    github_link="https://github.com/tangjon/cmpt276-carbon-tracker"
+                    description="WordPress powered group landing site for a local Scout Group. Aimed to inform new and
+                    existing visitors about the Scout Group. Practiced CSS and implemented custom WordPress UI widgets."
+                />
+
+                <ProjectItem
                     title="Carbon Tracker"
                     languages={["android"]}
                     date="Jan 2017 - April 2017"
@@ -36,6 +54,7 @@ export default function Project() {
                     commuting point A to B. Graphs and statistics are displayed to the user about the their carbon
                     footprint."
                 />
+
             </div>
         </div>
     );
