@@ -1,0 +1,10 @@
+.experience-logo {
+    height: 50px;
+}
+
+.ExperienceItem{
+    border-bottom-color: black;
+    border-radius: 1px;
+    border-style: solid;
+    padding: 7px;
+}

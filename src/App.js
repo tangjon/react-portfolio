@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import logo from './assets/headshot.jpg';
-import Project from "./project/project";
+import Section from "./project/section";
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
                     <a href="#">Email</a>
                 </div>
             </div>
-            <Project/>
+            <Section/>
         </div>
     );
 }
