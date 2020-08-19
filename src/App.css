@@ -63,3 +63,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+#experiences .section-body {
+    display: flex;
+}

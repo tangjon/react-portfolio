@@ -3,6 +3,8 @@ import './App.css';
 import logo from './assets/headshot.jpg';
 import ExperienceItem from "./experience/experienceItem";
 import logo_sap from "./assets/company-logos/sap.png";
+import logo_safe from "./assets/company-logos/safesoftware.png";
+
 import ProjectItem from "./project/projectItem";
 
 function App() {
@@ -20,11 +22,12 @@ function App() {
                     <a href="#">Email</a>
                 </div>
             </div>
-
-            <div className="section">
+            <div id="experiences" className="section">
                 <div className="section-title">EXPERIENCE</div>
-                <div id="experiences" className="section-body">
-                    <ExperienceItem title="Product Support Engineer" logo={logo_sap} date="Sept 2018" location="Vancouver, BC Canada"/>
+                <div className="section-body">
+                    <ExperienceItem title="Product Support Engineer" logo={logo_sap} date="Jan 2018 - Aug 2018" location="Vancouver, BC Canada"/>
+                    <ExperienceItem title="Python Software Developer" logo={logo_safe} date="Sept 2019 to Aug 2020" location="Vancouver, BC Canada"/>
+
                 </div>
             </div>
             <div className="section">
