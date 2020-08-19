@@ -28,9 +28,9 @@ function App() {
             <div id="experiences" className="section">
                 <div className="section-title">EXPERIENCE</div>
                 <div className="section-body">
-                    <ExperienceItem title="Python Software Developer" logo={logo_safe} date="Sept 2019 to Aug 2020"
+                    <ExperienceItem title="Python Software Developer" logo={logo_safe} date="September 2019 to August 2020"
                                     location="Surrey, BC Canada"/>
-                    <ExperienceItem title="Product Support Engineer" logo={logo_sap} date="Jan 2018 to Aug 2018"
+                    <ExperienceItem title="Product Support Engineer" logo={logo_sap} date="January 2018 to August 2018"
                                     location="Vancouver, BC Canada"/>
                 </div>
             </div>
@@ -49,7 +49,7 @@ function App() {
                     <ProjectItem
                         title="Computer Parts Picker"
                         languages={["django", "python", "bootstrap"]}
-                        date="Aug 2018"
+                        date="August 2018"
                         logo={logo_pc_part_picker}
                         site_link="http://bapc.io"
                         github_link="https://github.com/tangjon/Build-a-PC-Configuration-Tool"
@@ -61,7 +61,7 @@ function App() {
                         title="Job Distribution System"
                         logo={logo_qmcd}
                         languages={["angular", "nodejs", "mysql"]}
-                        date="Jan 2018"
+                        date="January 2018"
                         github_link="https://github.com/tangjon/queue-manager-client"
                         description="A work load distribution system that aims to balance work loads of many users within
                         a team."
@@ -70,7 +70,7 @@ function App() {
                     <ProjectItem
                         title="33rd Kerrisdale Scout Group Website"
                         languages={["wordpress"]}
-                        date="Jun 2015 - Present"
+                        date="June 2015 - Present"
                         github_link="https://github.com/tangjon/cmpt276-carbon-tracker"
                         description="WordPress powered group landing site for a local Scout Group. Aimed to inform new and
                         existing visitors about the Scout Group. Practiced CSS and implemented custom WordPress UI widgets."
@@ -80,7 +80,7 @@ function App() {
                         title="Carbon Tracker"
                         languages={["android"]}
                         logo={logo_carbon_tracker}
-                        date="Jan 2017 - April 2017"
+                        date="January 2017 - April 2017"
                         github_link="https://github.com/tangjon/cmpt276-carbon-tracker"
                         description="Android application that tracks and calculates carbon usages and emission from
                         commuting point A to B. Graphs and statistics are displayed to the user about the their carbon
