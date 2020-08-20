@@ -10,3 +10,21 @@
     margin: 5px;
     flex: 1 1 160px;
 }
+
+.popup {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-dialog {
+    position: fixed;
+    top: 35%;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    margin: auto;
+    /* pointer-events: none; */
+    left: 0;
+}

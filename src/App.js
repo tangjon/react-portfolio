@@ -28,10 +28,53 @@ function App() {
             <div id="experiences" className="section">
                 <div className="section-title">EXPERIENCE</div>
                 <div className="section-body">
-                    <ExperienceItem title="Python Software Developer" logo={logo_safe} date="September 2019 to August 2020"
-                                    location="Surrey, BC Canada"/>
-                    <ExperienceItem title="Product Support Engineer" logo={logo_sap} date="January 2018 to August 2018"
-                                    location="Vancouver, BC Canada"/>
+                    <ExperienceItem title="Python Software Developer"
+                                    logo={logo_safe}
+                                    date="September 2019 to August 2020"
+                                    location="Surrey, BC Canada"
+                                    description={
+                                        <>
+                                            My second coop experience that resulted in an extension of 8 additional
+                                            months,
+                                            totalling to 12 months working with the wonderful and collaborative Python
+                                            Cloud Connectors team. My main task here were
+                                            <ul className="mt-1">
+                                                <li>Integrate popular APIs, tools, frameworks into the FME platform
+                                                    as an easily maintainable plugin.
+                                                </li>
+                                                <li>Lead developer on integrating the load actions Google BigQuery
+                                                    Connector and Writer, that allowed users to load their data
+                                                    seamlessly
+                                                    onto the Google BigQuery platform with the support spatial data.
+                                                </li>
+                                                <li>Add improvements to the Jenkins pipeline and introduce automation to
+                                                    common internal work processes.
+                                                </li>
+                                                <li>
+                                                    Deliver and provide product presentations to the company.
+                                                </li>
+                                            </ul>
+                                        </>
+                                    }
+                    />
+                    <ExperienceItem title="Product Support Engineer"
+                                    logo={logo_sap}
+                                    date="January 2018 to August 2018"
+                                    location="Vancouver, BC Canada"
+                                    description={
+                                        <>
+                                            My first coop experience that lasted an amazing 8 with the SAP Product
+                                            Support Team.
+                                            Over the experience, I diagnosed and analyzed over 300 customer incidents
+                                            with clear communication,
+                                            and collaborated on tackling issues with the team. I also had the unique
+                                            opportunity
+                                            to develop an internal tool that helped streamline work distribution
+                                            throughout team that
+                                            increased incident processing times times.
+                                        </>
+                                    }
+                    />
                 </div>
             </div>
             <div className="section">
