@@ -38,15 +38,6 @@ function App() {
                 <div className="section-title">PROJECTS</div>
                 <div className="section-body">
                     <ProjectItem
-                        title="tangjon.github.io with React.Js revamp"
-                        languages={["react", "bootstrap"]}
-                        date="August 2020"
-                        github_link="https://github.com/tangjon/react-portfolio"
-                        description="Revamp my original Angular powered portolio with React.Js with a simple and more
-                        maintainable design. Design and project items are modular, parameterized and easily editable."
-                    />
-
-                    <ProjectItem
                         title="Computer Parts Picker"
                         languages={["django", "python", "bootstrap"]}
                         date="August 2018"
@@ -63,8 +54,10 @@ function App() {
                         languages={["angular", "nodejs", "mysql"]}
                         date="January 2018"
                         github_link="https://github.com/tangjon/queue-manager-client"
-                        description="A work load distribution system that aims to balance work loads of many users within
-                        a team."
+                        description="A full-stack Angular, Node.Js, MySQL solution to distributing work to users across
+                        different work hours which was heavily utilized in a professional environment. Features a
+                        frontend and backend. This application can track units of work done by user. Toggle
+                        availability to be assigned tickets. Place a cap on work for a user per day."
                     />
 
                     <ProjectItem
@@ -73,7 +66,7 @@ function App() {
                         date="June 2015 - Present"
                         github_link="https://github.com/tangjon/cmpt276-carbon-tracker"
                         description="WordPress powered group landing site for a local Scout Group. Aimed to inform new and
-                        existing visitors about the Scout Group. Practiced CSS and implemented custom WordPress UI widgets."
+                        existing visitors about the Scout Group. Implemented custom WordPress UI widgets and CSS theme."
                     />
 
                     <ProjectItem
@@ -85,6 +78,18 @@ function App() {
                         description="Android application that tracks and calculates carbon usages and emission from
                         commuting point A to B. Graphs and statistics are displayed to the user about the their carbon
                         footprint."
+                    />
+
+                    <ProjectItem
+                        title="tangjon.github.io"
+                        languages={["react", "bootstrap"]}
+                        date="Ongoing"
+                        github_link="https://github.com/tangjon/react-portfolio"
+                        description="
+                        An ongoing portfolio to capture my notable experiences and projects. First started as a jekyll
+                        powered portfolio then later to Angular and now React.Js.
+                        This site continues to iterate with new technologies and design. The current approach features
+                        project and experience entries as html components which are parameterized and easily maintainable."
                     />
                 </div>
             </div>
