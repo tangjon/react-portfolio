@@ -1,5 +1,7 @@
 # tangjon.github.io v2
 
+Current: https://tangjon.github.io/
+
 By Jonathan Tang. Developed in React.Js in August 2020 to revamp version 1 of my portfolio.
 
 Version 1: https://github.com/tangjon/portfolio-angular
